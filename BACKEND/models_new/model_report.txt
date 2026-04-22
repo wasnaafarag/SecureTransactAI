@@ -1,0 +1,15 @@
+SECURETRANSACTAI AUTHENTIC STACKING REPORT
+==========================================
+Source: IEEE-CIS Fraud Detection Dataset
+Temporal Method: 5-Transaction Rolling Window
+Stacking Layers: [RF, LR] -> Logistic Meta-Learner
+
+EVALUATION RESULTS:
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99      9729
+           1       0.82      0.17      0.28       271
+
+    accuracy                           0.98     10000
+   macro avg       0.90      0.58      0.63     10000
+weighted avg       0.97      0.98      0.97     10000
